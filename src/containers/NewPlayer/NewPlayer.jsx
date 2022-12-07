@@ -5,12 +5,13 @@ import Header from "../../components/Header/Header";
 
 import "./NewPlayer.scss";
 
+import saflag from "../../assets/images/saflag.jpg";
+
 const NewPlayer = () => {
     return (
         <div className="newplayer">
             <Navbar />
-            <Header />
-            New Player
+            <Header title={"New Player Zone"} background={saflag} />
         </div>
     );
 };

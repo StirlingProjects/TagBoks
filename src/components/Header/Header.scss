@@ -1,0 +1,22 @@
+.header {
+    width: 85vw;
+    height: 30vh;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    border: solid 1px black;
+
+    &__title {
+        color: white;
+    }
+}
