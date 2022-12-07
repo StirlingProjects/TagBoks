@@ -3,14 +3,16 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+import "./NewPlayer.scss";
+
+const NewPlayer = () => {
     return (
-        <div className="home">
+        <div className="newplayer">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            New Player
         </div>
     );
 };
 
-export default Home;
+export default NewPlayer;
