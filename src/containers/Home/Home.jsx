@@ -4,9 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-import saflag from "../../assets/images/saflag.jpg"
-
-import saflag from "../../assets/images/saflag.jpg"
+import saflag from "../../assets/images/saflag.jpg";
 
 const Home = () => {
     return (
