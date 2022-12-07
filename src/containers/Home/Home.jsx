@@ -4,12 +4,15 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
+import saflag from "../../assets/images/saflag.jpg"
+
+import saflag from "../../assets/images/saflag.jpg"
+
 const Home = () => {
     return (
         <div className="home">
             <Navbar />
-            <Header />
-            TagBoks - MXS
+            <Header title={"TagBoks - MXS"} background={saflag} />
             <div className="body">
                 <div className="home__left">
                     The TagBOKS UK Squad is affiliated with Tag South Africa,

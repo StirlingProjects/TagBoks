@@ -9,8 +9,7 @@ const Calendar = () => {
     return (
         <div className="calendar">
             <Navbar />
-            <Header />
-            Calendars
+            <Header title="Training Calendars" />
         </div>
     );
 };
