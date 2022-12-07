@@ -3,14 +3,16 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+import "./Eligibility.scss";
+
+const Eligibility = () => {
     return (
-        <div className="home">
+        <div className="eligibility">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Eligibility
         </div>
     );
 };
 
-export default Home;
+export default Eligibility;

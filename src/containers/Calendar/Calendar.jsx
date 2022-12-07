@@ -1,16 +1,18 @@
 import React from "react";
 
+import "./Calendar.scss";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+const Calendar = () => {
     return (
-        <div className="home">
+        <div className="calendar">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Calendars
         </div>
     );
 };
 
-export default Home;
+export default Calendar;

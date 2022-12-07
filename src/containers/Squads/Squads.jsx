@@ -1,16 +1,18 @@
 import React from "react";
 
+import "./Squads.scss";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+const Squads = () => {
     return (
-        <div className="home">
+        <div className="squads">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Squads
         </div>
     );
 };
 
-export default Home;
+export default Squads;

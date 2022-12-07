@@ -1,16 +1,18 @@
 import React from "react";
 
+import "./Contacts.scss";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+const Contacts = () => {
     return (
-        <div className="home">
+        <div className="contacts">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Contacts
         </div>
     );
 };
 
-export default Home;
+export default Contacts;

@@ -1,16 +1,18 @@
 import React from "react";
 
+import "./Archive.scss";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+const Archive = () => {
     return (
-        <div className="home">
+        <div className="archive">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Archive
         </div>
     );
 };
 
-export default Home;
+export default Archive;

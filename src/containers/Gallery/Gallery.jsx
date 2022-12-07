@@ -1,16 +1,18 @@
 import React from "react";
 
+import "./Gallery.scss";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
-const Home = () => {
+const Gallery = () => {
     return (
-        <div className="home">
+        <div className="gallery">
             <Navbar />
             <Header />
-            TagBoks - MXS
+            Gallery
         </div>
     );
 };
 
-export default Home;
+export default Gallery;
