@@ -1,0 +1,26 @@
+.home {
+    &__content {
+        height: 100%;
+        width: 85vw;
+
+        position: fixed;
+        top: 30vh;
+        right: 0;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    &__left {
+        width: 70%;
+    }
+
+    &__title {
+        color: yellow;
+        text-align: center;
+    }
+
+    &__right {
+        width: 30%;
+    }
+}
