@@ -1,0 +1,20 @@
+.eligibility {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+
+    &__title {
+        padding: 0 1em 0 1em;
+    }
+
+    &__subtitle {
+        padding: 1em;
+    }
+
+    &__list {
+        padding-left: 2.5em;
+    }
+}

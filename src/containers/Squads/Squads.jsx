@@ -2,16 +2,16 @@ import React from "react";
 
 import "./Squads.scss";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
-
-import saflag from "../../assets/images/saflag.jpg";
 
 const Squads = () => {
     return (
         <div className="squads">
-            <Navbar />
-            <Header title={"Squads"} background={saflag} />
+            <Header title={"Squads"} />
+            <div className="squads__mxsinfo">Mixed seniors info</div>
+            <div className="squads__mxs">Mixed seniors tiles</div>
+            <div className="squads__addinfo">Additional players info</div>
+            <div className="squads__additional">Additional players tiles</div>
         </div>
     );
 };

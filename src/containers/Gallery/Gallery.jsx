@@ -2,15 +2,15 @@ import React from "react";
 
 import "./Gallery.scss";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
 const Gallery = () => {
     return (
         <div className="gallery">
-            <Navbar />
-            <Header />
-            Gallery
+            <Header title="Gallery"  />
+            <div className="gallery__sliders">
+                This is where the sliding sections for the images will go
+            </div>
         </div>
     );
 };

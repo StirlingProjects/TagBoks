@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Home.scss";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
@@ -12,10 +11,7 @@ import saflag from "../../assets/images/saflag.jpg";
 const Home = () => {
     return (
         <div className="home">
-            <div className="home__left">
-                <Navbar />
-            </div>
-            <div className="home__right">
+
                 <Header title={"TagBoks - MXS"} background={saflag} />
                 <div className="home__content">
                     <div className="home__content-left">
@@ -72,7 +68,6 @@ const Home = () => {
                     </div>
                 </div>
                 <Footer />
-            </div>
         </div>
     );
 };
