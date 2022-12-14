@@ -5,7 +5,7 @@ import "./Squads.scss";
 import Header from "../../components/Header/Header";
 
 import mxsInfoArray from "../../assets/data/mxs_player_info";
-import addInfoArray from "../../assets/data/add_payers_info";
+import addInfoArray from "../../assets/data/add_players_info";
 import PlayerTile from "../../components/PlayerTile/PlayerTile";
 
 const Squads = () => {
