@@ -1,0 +1,30 @@
+.squads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__mxsinfo {
+        width: 100%;
+        padding: 2em;
+
+        background-color: #F3F3F3;
+        ul {
+            padding: 2em;
+        }
+    }
+
+    &__playertiles {
+        width: 100%;
+        margin: 2em 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__addinfo {
+        background-color: #F3F3F3;
+        padding: 1em 2em;
+    }
+}
