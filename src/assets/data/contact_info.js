@@ -91,4 +91,6 @@ const wcMngmtArray = [
     },
 ];
 
-export default [ukMngmtArray, ukSupportArray, wcMngmtArray];
+const contactInfoArray = [ukMngmtArray, ukSupportArray, wcMngmtArray];
+
+export default contactInfoArray;

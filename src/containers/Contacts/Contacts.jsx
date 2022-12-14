@@ -4,11 +4,11 @@ import "./Contacts.scss";
 
 import Header from "../../components/Header/Header";
 
-import contactsArray from "../../assets/data/contact_info";
+import contactInfoArray from "../../assets/data/contact_info";
 import ContactTile from "../../components/ContactTile/ContactTile";
 
 const Contacts = () => {
-    const ukMngmtJsx = contactsArray[0].map((contact, index) => {
+    const ukMngmtJsx = contactInfoArray[0].map((contact, index) => {
         return (
             <ContactTile
                 key={index + 1}
@@ -20,7 +20,7 @@ const Contacts = () => {
         );
     });
 
-    const ukSupportJsx = contactsArray[1].map((contact, index) => {
+    const ukSupportJsx = contactInfoArray[1].map((contact, index) => {
         return (
             <ContactTile
                 key={index + 1}
@@ -32,7 +32,7 @@ const Contacts = () => {
         );
     });
 
-    const wcMngmtJsx = contactsArray[2].map((contact, index) => {
+    const wcMngmtJsx = contactInfoArray[2].map((contact, index) => {
         return (
             <ContactTile
                 key={index + 1}
