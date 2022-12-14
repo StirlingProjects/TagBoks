@@ -2,15 +2,13 @@ import React from "react";
 
 import "./Archive.scss";
 
-import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 
 const Archive = () => {
     return (
         <div className="archive">
-            <Navbar />
-            <Header />
-            Archive
+            <Header title="Archive"/>
+            TBC if this should be moved into the player hub or not
         </div>
     );
 };
