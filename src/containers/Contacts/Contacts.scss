@@ -1,0 +1,31 @@
+.contacts {
+    &__section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding: 1em;
+        width: 100%;
+        background-color: #F3F3F3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1.25em;
+        font-weight: 700;
+    }
+
+    &__tiles {
+        width: 100%;
+        margin: 2em 0;
+        padding: 0 2em;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
